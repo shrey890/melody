@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    color: rgb(0, 0, 0)
+}
+body{
+    font-family: 'Patrick Hand', cursive;
+}
+h3,h4{
+    font-weight: 400;
+    color:crimson;
+}
+@import "./_song.css";
+@import "./_player.css";
+@import "./_library.css"

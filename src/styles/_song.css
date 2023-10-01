@@ -1,0 +1,21 @@
+.song-container {
+	min-height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	width: 20%;
+	border-radius: 112px 40px 104px 38px;
+	-moz-border-radius: 112px 40px 104px 38px;
+	-webkit-border-radius: 112px 40px 104px 38px;
+	border: 0px solid #000000;
+}
+h2 {
+	padding: 3rem 1rem 1rem 1rem;
+}
+h3 {
+	font-size: 1rem;
+}

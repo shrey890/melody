@@ -1,0 +1,51 @@
+.library {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20rem;
+	height: 100%;
+	background-color: red;
+	box-shadow: 2px 2px 50px palevioletred;
+	overflow: scroll;
+	background-color: white;
+}
+h2 {
+	padding: 2rem;
+}
+.library-song {
+	display: flex;
+	align-items: center;
+	padding: 1rem 2rem 1rem 2rem;
+	cursor: pointer;
+}
+.library-song:hover {
+	background-color: rgb(140, 225, 140);
+}
+img {
+	width: 30%;
+}
+.song-description {
+	padding-left: 1rem;
+}
+h3 {
+	font-size: 1rem;
+}
+h4 {
+	font-size: 0.7rem;
+}
+* {
+	scrollbar-width: thin;
+	scrollbar-color: rgb(248, 165, 165) transparent;
+}
+*::-webkit-scrollbar {
+	width: 5px;
+}
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+	background: rgb(255, 196, 255);
+	border-radius: 20px;
+	border: transparent;
+}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
